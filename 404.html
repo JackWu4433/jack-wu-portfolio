@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>吴少杰 · 资深 UI/UX 设计师 | 作品集 & 简历</title>
+    <meta name="description" content="吴少杰，10年+资深 UI/UX 设计师，专注 IoT 智能硬件与复杂 B 端系统设计。设计系统建设、交互设计、动效专精。" />
+    <meta name="theme-color" content="#0a0a0b" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+      }
+      html, body {
+        background-color: #0a0a0b !important;
+        color: #f4f4f5;
+      }
+    </style>
+    <script>
+      (function() {
+        document.documentElement.classList.add('dark');
+        document.documentElement.setAttribute('data-theme', 'dark');
+        // Progressive enhancement: only arm reveal animations when motion is
+        // allowed. If this class is absent (JS off / reduced motion), every
+        // section stays fully visible — content can never get stuck hidden.
+        try {
+          var mq = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+          if (!mq || !mq.matches) {
+            document.documentElement.classList.add('reveal-ready');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/jack-wu-portfolio/assets/index-BorhXt6a.js"></script>
+    <link rel="stylesheet" crossorigin href="/jack-wu-portfolio/assets/index-oFDRl1BS.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
